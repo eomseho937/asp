@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style>
+        legend {
+            padding: 5px;
+            border: 0px
+        }
+
+        fieldset {
+            margin: auto;
+            width: 400px;
+            border: dotted;
+            padding: 10px
+        }
+
+        input[type=text] {
+            border: none;
+            background-color: transparent;
+            border-bottom: ridge
+        }
+
+        input[type=submit], button {
+            padding: 5px
+        }
+    </style>
+    <script type="text/javascript" src="orderForm.js"></script>
+</head>
+<body onload="GetCookies()">
+    <form>
+        <fieldset>
+            <legend style="color:white; background-color:bisque; padding:5px">
+                <h>Confirmation</h>
+            </legend>
+
+            <br />
+            <br />
+            <label for="Fundamental of Web Development">WebDevelopment: </label>
+            <label id="FWD"></label>
+            <br />
+            <br />
+            <label for="JavaScript Absolute">javascript: </label>
+            <label id="JA"></label>
+            <br />
+            <br />
+            <label for="Adaptive Web Design">Adaptive Web Design: </label>
+            <label id="AWD"></label>
+            <br />
+            <br />
+
+            <label for="Programming the world wide web">Programming the world wide web: </label>
+            <label id="PWW"></label>
+            <br />
+            <br />
+            <label for="Responsive web design in 24 hours">Responsive web design in 24 hours: </label>
+            <label id="RWD"></label>
+            <br />
+            <br />
+
+            <button type="button" style="color:white; background-color:dimgrey; border:none" onclick="window.close()">Close page</button>
+
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+
+        function TotalPrice() {
+
+            var FWD = document.getElementById("FWD").value;
+            var JA = document.getElementById("JA").value;
+            var AWD = document.getElementById("AWD").value;
+            var PWW = document.getElementById("PWW").value;
+            var RWD = document.getElementById("RWD").value;
+
+            alert("You haved ordered " + FWD + " Book of FWD and " + JA + " Book of JA and " + AWD + " Book of AWD and " + PWW + "Book of PWW and " + RWD + "Book of RWD");
+
+            var total = (parseFloat(FWD) * 178.55) + (parseFloat(JA) * 36.99) + (parseFloat(AWD) * 36.99) + (parseFloat(PWW) * 180.70) + (parseFloat(RWD) * 45.99);
+alert("Total Price: $" + (total * 1.13).toFixed(2));
+        }
+
+    </script>
+</head>
+<body>
+    <title> Product List </title>
+    <h1 style="text-align:center"> Product List </h1>
+    <p style="text-align:center">  </p>
+    <br />
+
+    <!-- name="form1" action="add_supplier.php" method="post" onsubmit="return checkscript()"-->
+    <form>
+        <table border=2 style=text-align:center; align=center width=500>
+            <tr><td>ISBN-13 </td><td>Title</td><td>Quantity</td><td>Unit Price</td></tr>
+            <tr><label for="1"><td>978013441265 </td><td>Fundamental of Web Development</td></label><td><input type="text" name="FWD" id="FWD" /></td><td>178.55</td></tr>
+            <tr><label for="2"><td>978013441265 </td><td>JavaScript Absolute</td></label><td><input type="text" name="JA" id="JA" /></td><td>36.99</td></tr>
+            <tr><label for="3"><td>978013441265 </td><td>Adaptive Web Design</td></label><td><input type="text" name="AWD" id="AWD" /></td><td>36.99</td></tr>
+            <tr><label for="4"><td>978013441265 </td><td>Programming the World Wide Web</td></label><td><input type="text" name="PWW" id="PWW" /><td>180.70</td></tr>
+            <tr><label for="5"><td>978013441265 </td><td>Responsive Web Design in 24 Hours</td></label><td><input type="text" name="RWD" id="RWD" /><td>45.99</td>></tr>
+        </table><br />
+
+        <table border=0 style=text-align:center; align=center>
+            <tr>
+                <td>
+                    <br /><input type="submit" name="submitbutton" value="Total Price" onClick="TotalPrice()"><br />
+                    <input type="submit" name="confirmation" value="Confirmation" onclick="SetCookies()">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <style type="text/css">
+        label {
+            float: left;
+            width: 120px;
+            font-weight: bold;
+        }
+
+        input, textarea {
+            width: 200px;
+            margin-bottom: 9px;
+        }
+
+        br {
+            clear: left;
+        }
+    </style>
+    <script type="text/javascript" src="orderForm.js"></script>
+
+</body>
+
+</html>

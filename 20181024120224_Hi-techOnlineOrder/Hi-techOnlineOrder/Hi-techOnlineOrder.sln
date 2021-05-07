@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Hi-techOnlineOrder", "Hi-techOnlineOrder\", "{EE2C7576-E11F-41A6-99A8-D737E4EBC489}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49655"
+		Debug.AspNetCompiler.PhysicalPath = "Hi-techOnlineOrder\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49655\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49655"
+		Release.AspNetCompiler.PhysicalPath = "Hi-techOnlineOrder\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49655\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49655"
+		SlnRelativePath = "Hi-techOnlineOrder\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2C7576-E11F-41A6-99A8-D737E4EBC489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2C7576-E11F-41A6-99A8-D737E4EBC489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0952A0E-65FE-48A7-9EB7-E450C8D964B6}
+	EndGlobalSection
+EndGlobal
